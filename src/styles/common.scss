@@ -1,0 +1,35 @@
+@use "../styles/variable" as *;
+header {
+    font-size: FZ(18);
+    color: #9e9e9e;
+    background-color: #d1dffa;
+    width: stretch;
+    font-size: inherit;
+    padding: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    nav {
+        font-size: inherit;
+        ul {
+            font-size: inherit;
+            display: flex;
+            align-items: center;
+            gap: 0 1em;
+            li {
+                font-size: inherit;
+                .btn_link {
+                    color: #333333;
+                    font-size: FZ(18);
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+footer {
+    font-size: inherit;
+    width: stretch;
+    background-color: #c6c6c6;
+    padding: 3em;
+}
